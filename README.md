@@ -56,7 +56,7 @@ That being said, my best model was the one using the Logistic Regression Classif
 
 This model will be well-suited to real world application because it is fast, efficient, and good at making live predictions! Please see the "API_and_predict" notebook for a demonstration of applying this model to tweets obtained via Twython and the Twitter API. 
 
-<img src="./images/Best_LogReg_CM.png">
+<img src="./images/best_LogReg_CM.png">
 
 <img src="./images/precision_recall_curve.png">
 
