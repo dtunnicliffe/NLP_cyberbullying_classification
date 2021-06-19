@@ -46,7 +46,7 @@ And there are certain words that appear most often in the cyberbullying class:
 
 It is clear to see that there are certain words that are offensive regardless of their context. For this reason, I opted for a Bag of Words method of analysis, where the words themselves act as features and context is not necessary. The model performed well with this method. After applying Term Frequency-Inverse Document Frequency (TF-IDF) Vectorization to the content, the coefficients of the logistic regression model showed the following words as having the highest magnitude:
 
-<img src="./images/fig12.png height="400">
+<img src="./images/fig12.png" height="400">
 
 
 ## Evaluation
