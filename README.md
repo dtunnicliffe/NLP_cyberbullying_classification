@@ -37,10 +37,10 @@ I utilized the class_weight='balanced' sklearn parameter to account for the clas
 
 ## Results
 There are certain words that appear most often in the non-cyberbullying class:
-<img src="./images/noncyberbullying_wordcloud.png">
+<img src="./images/noncyberbullying_wordcloud.png" height="400">
 
 And there are certain words that appear most often in the cyberbullying class:
-<img src="./images/cyberbullying_wordcloud.png">
+<img src="./images/cyberbullying_wordcloud.png" height="400">
 
 It is clear to see that there are certain words that are offensive regardless of their context. For this reason, I opted for a Bag of Words method of analysis, where the words themselves act as features and context is not necessary. The model performed well with this method. After applying Term Frequency-Inverse Document Frequency (TF-IDF) Vectorization to the content, the coefficients of the logistic regression model showed the following words as having the highest magnitude:
 ![graph](./images/fig12.png)
@@ -56,9 +56,9 @@ That being said, my best model was the one using the Logistic Regression Classif
 
 This model will be well-suited to real world application because it is fast, efficient, and good at making live predictions! Please see the "API_and_predict" notebook for a demonstration of applying this model to tweets obtained via Twython and the Twitter API. 
 
-<img src="./images/best_LogReg_CM.png">
+<img src="./images/best_LogReg_CM.png" height="400">
 
-<img src="./images/precision_recall_curve.png">
+<img src="./images/precision_recall_curve.png" height="400">
 
 The precision-recall curve above shows the tradeoff between recall and precision. This is also demonstrated by the model's F1 score of 62%. The AUC or Area Under the Curve of 71% also confirms that this model is working relatively well. Based on the performance of the model, especially the recall/sensitivity rate of 88%, I am confident that the model can catch many instances of cyberbullying content.
 
