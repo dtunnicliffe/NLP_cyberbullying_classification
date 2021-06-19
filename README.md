@@ -37,13 +37,16 @@ I utilized the class_weight='balanced' sklearn parameter to account for the clas
 
 ## Results
 There are certain words that appear most often in the non-cyberbullying class:
+
 <img src="./images/noncyberbullying_wordcloud.png" height="400">
 
 And there are certain words that appear most often in the cyberbullying class:
+
 <img src="./images/cyberbullying_wordcloud.png" height="400">
 
 It is clear to see that there are certain words that are offensive regardless of their context. For this reason, I opted for a Bag of Words method of analysis, where the words themselves act as features and context is not necessary. The model performed well with this method. After applying Term Frequency-Inverse Document Frequency (TF-IDF) Vectorization to the content, the coefficients of the logistic regression model showed the following words as having the highest magnitude:
-![graph](./images/fig12.png)
+
+<img src="./images/fig12.png height="400">
 
 
 ## Evaluation
