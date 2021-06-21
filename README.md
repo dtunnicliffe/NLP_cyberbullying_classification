@@ -80,7 +80,7 @@ Please see the notebook "API_and_predict", for a demonstration of this model bei
 
 ## For More Information
 
-Please review my full analysis in [my Jupyter Notebook](./preprocess_model_evaluate.ipynb) or my [presentation](./cyberbullying_detection_slides.pdf).
+Please review my full analysis in [my Jupyter Notebook](./preprocess_model_evaluate.ipynb) or my [presentation](./cyberbullying_detection.pdf).
 
 For any additional questions, please contact **Diane Tunnicliffe** at diane.j.tunnicliffe@gmail.com.
 
@@ -92,7 +92,6 @@ For any additional questions, please contact **Diane Tunnicliffe** at diane.j.tu
 ├── intro_problem_EDA.ipynb             <- First notebook. Data understanding & EDA.
 ├── preprocess_model_evaluate.ipynb     <- Second notebook. Preprocessing & models.
 ├── API_and_predict.ipynb               <- Third notebook. API calls & new predictions.
-├── cyberbullying_detection_slides.pdf  <- PDF version of project presentation
-├── cyberbullying_detection.pdf         <- PDF version of Jupyter notebook
+├── cyberbullying_detection.pdf         <- PDF version of project presentation
 └── images                              <- Visualizations generated for analysis
 ```
